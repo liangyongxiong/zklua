@@ -23,7 +23,7 @@
 --@param state connection state. The state value will be one of the *_STATE constants.
 --@param path znode path for which the watcher is triggered. NULL if the event type is ZOO_SESSION_EVENT.
 --@param watcherctx watcher context.
-function wather_fn(zh, type, state, path, watcherctx) end
+function watcher_fn(zh, type, state, path, watcherctx) end
 
 
 ---signature of a void completion function.
